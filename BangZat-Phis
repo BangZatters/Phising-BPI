@@ -30,6 +30,7 @@ sleep 1
 echo -e $a '                 Autor:'
 echo -e $f '                Mr.GxDDP'
 echo -e $e '                Mr.LxTS'
+echo -e $b '              ZoRRoKiN 98'
 echo "   Join Grup: http://bit.ly/GrupBPITeam" | lolcat
 echo "             +6285701879860" | lolcat
 sleep 1
