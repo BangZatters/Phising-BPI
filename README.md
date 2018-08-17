@@ -5,3 +5,5 @@ Soalnya Gua Belajar Coding ini Belum Sampai 3 Hari Gua Langsung Paksain Buat Too
 Jadi Mohon Maaf Atas Kesalahan Saya ini
 
 Jangan Reupload Script ini
+Gua Janji Gak Bakal Reupload dan Reedit Tools ini
+Tepatin Janji Lu
