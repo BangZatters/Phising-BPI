@@ -1,0 +1,179 @@
+#!/usr/bin/bash
+#Tools Install
+#Ngapain Lu ke Sini, Mau recode?
+#Gua Janji Gak Bakal Recode
+#Tepatin Janji Lu
+#Janji di Bawa Mati
+a='\e[1;31m'
+b='\e[1;32m'
+c='\e[1;33m'
+d='\e[1;34m'
+e='\e[1;35m'
+f='\e[1;36m'
+g='\e[1;37m'
+python2 BangZat.py
+clear
+echo -e $a '########################################'
+echo -e $a '##############/ __ )/ __ \/  _/#########'
+echo -e $a '#############/ __  / /#/ // /###########'
+echo -e $a '############/ /#/ / ____// /############'
+echo -e $a '###########/_____/_/###/___/############'
+echo -e $a '########################################'
+echo -e $g '########################################'
+echo -e $g '########/_  __/#########################'
+echo -e $g '#########/ /#/ _ \/ __ `/ __ `__ \######'
+echo -e $g '########/ /#/  __/ /#/ / /#/ /#/ /######'
+echo -e $g '#######/_/##\___/\__,_/_/#/_/#/_/#######'
+echo -e $g '########################################'
+echo -e $b '    <<=======>>[BPI-Team]<<=======>>'
+sleep 1
+echo -e $a '                 Autor:'
+echo -e $f '                Mr.GxDDP'
+echo -e $e '                Mr.LxTS'
+echo "   Join Grup: http://bit.ly/GrupBPITeam" | lolcat
+echo "             +6285701879860" | lolcat
+sleep 1
+echo -e $c '   Team: BangZat PhiSingeRs InDoNeSia'
+sleep 1
+echo -e $b '    <<=======>>[BPI-TEAM]<<=======>>'
+sleep 1
+echo '      Pilihlah Sesuai Keinginan Kamu' | lolcat
+echo -e $f '<<====================================>>'
+echo -e $a ' [01] Install Weeman'
+echo -e $b ' [02] Install shellphish'
+echo -e $c ' [03] Install blackeye'
+echo -e $d ' [04] Install SocialFish'
+echo -e $e ' [05] Install PhisingGame'
+echo -e $f ' [06] Install Ngrok'
+echo -e $g ' [07] Download SC Phising coc By GxDDP'
+echo '  [00] Keluar' | lolcat
+echo -e $f "<<====================================>>"
+read -p " [BPI-Team]==>> " bpi;
+
+if [ $bpi = 1 ] || [ $bpi = 01 ]
+then
+clear
+echo -e $a '<<=====[Install]=====>>'
+apt-get install python2
+apt-get install git
+cd $HOME
+git clone https://github.com/evait-security/weeman
+clear
+cd weeman
+chmod 777 weeman.py
+python2 weeman.py;
+fi
+
+if [ $bpi = 2 ] || [ $bpi = 02 ]
+then
+clear
+echo -e $b '<<=====[Install]=====>>'
+cd $HOME
+apt-get install git
+git clone https://github.com/thelinuxchoice/shellphish
+clear
+cd shellphish
+bash shellphish.sh
+fi
+
+if [ $bpi = 3 ] || [ $bpi = 03 ]
+then
+clear
+echo -e $c '<<=====[Install]=====>>'
+apt-get install git
+cd $HOME
+git clone https://github.com/thelinuxchoice/blackeye
+clear
+cd blackeye
+bash blackeye.sh
+fi
+
+if [ $bpi = 4 ] || [ $bpi = 04 ]
+then
+clear
+echo -e $d '<<=====[Install]=====>>'
+apt-get install python2 git php curl
+cd $HOME
+git clone https://github.com/UndeadSec/SocialFish
+cd socialfish
+pip2 install -r requirements.txt
+clear
+python2 SocialFish.py
+fi
+
+if [ $bpi = 5 ] || [ $bpi = 05 ]
+then
+clear
+echo -e $e '<<=====[Install]=====>>'
+apt-get install python2
+apt-get install apache2
+apt-get install php
+apt-get install git
+cd $HOME
+git clone https://github.com/Senitopeng/PhisingGame.git
+clear
+cd PhisingGame
+python2 phising.py
+fi
+
+if [ $bpi = 6 ] || [ $bpi = 06 ]
+then
+clear
+echo -e $f '<<=====[Install]=====>>'
+apt-get install wget
+mkdir ngrok
+cd ~/ngrok
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+mv ngrok-stable-linux-arm.zip $HOME
+$HOME/unzip ngrok-stable-linux-arm.zip
+cd ~/
+clear
+clear
+exit
+fi
+
+if [ $bpi = 7 ] || [ $bpi = 07 ]
+then
+clear
+apt-get install wget
+mkdir SCPhising
+cd ~/SCPhising
+wget http://download1073.mediafire.com/kg3rhnbg77yg/26weid2t9iuq5j9/CoC+Inject+All+By+Mr+.+GxDDP.zip
+mv CoC+Inject+All+By+Mr+.+GxDDP.zip $HOME
+cd ~/
+read -p " [ Nama Internal Kamu ]=>> " internal
+mv CoC+Inject+All+By+Mr+.+GxDDP.zip $internal
+echo -e $b 'Sudah Selesai, Tinggal Kamu Cek'
+sleep 1
+echo -e $d 'Kalau Gak Ada Berarti Kamu SalahMemasukkan Nama Internal Kamu'
+sleep 5
+clear
+clear
+exit
+fi
+
+if [ $bpi = 0 ] || [ $bpi = 00 ]
+then
+echo -e $a 'Yakin Ingin Keluar'
+echo -e $c ' Yaudah Silahkan Pilih'
+sleep 1
+echo -e $b '( Y ) Untuk Keluar dan ( N ) Untuk Netap'
+read -p " [Y/N]=>> " out
+fi
+
+if [ $out = Y ]
+then
+echo -e $d 'Ok Selamat Tinggal'
+sleep 1
+echo -e $f 'Jangan Kangen Sama Gua Ya'
+sleep 1
+clear
+exit
+fi
+
+if [ $out = N ]
+then
+echo -e $e 'Selamat Datang Kembali'
+sleep 1
+bash BangZat-Phis
+fi
