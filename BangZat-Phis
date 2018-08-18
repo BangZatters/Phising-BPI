@@ -136,18 +136,10 @@ fi
 if [ $bpi = 7 ] || [ $bpi = 07 ]
 then
 clear
-apt-get install wget
-mkdir SCPhising
-cd ~/SCPhising
-wget http://download1073.mediafire.com/hpgxfaa0cncg/26weid2t9iuq5j9/CoC+Inject+All+By+Mr+.+GxDDP.zip
-mv CoC+Inject+All+By+Mr+.+GxDDP.zip $HOME
-cd ~/
-read -p " [ Nama Internal Kamu ]=>> " internal
-mv CoC+Inject+All+By+Mr+.+GxDDP.zip $internal
-echo -e $b 'Sudah Selesai, Tinggal Kamu Cek'
+echo -e $a 'Link = http://bit.ly/SCPhisingCoCGxDDP'
 sleep 1
-echo -e $d 'Kalau Gak Ada Berarti Kamu Salah Memasukkan Nama Internal Kamu'
-sleep 5
+echo -e $c 'Dah Cuma Gitu Doank'
+sleep 10
 clear
 clear
 exit
