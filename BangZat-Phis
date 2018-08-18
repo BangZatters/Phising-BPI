@@ -139,14 +139,14 @@ clear
 apt-get install wget
 mkdir SCPhising
 cd ~/SCPhising
-wget http://download1073.mediafire.com/kg3rhnbg77yg/26weid2t9iuq5j9/CoC+Inject+All+By+Mr+.+GxDDP.zip
+wget http://download1073.mediafire.com/hpgxfaa0cncg/26weid2t9iuq5j9/CoC+Inject+All+By+Mr+.+GxDDP.zip
 mv CoC+Inject+All+By+Mr+.+GxDDP.zip $HOME
 cd ~/
 read -p " [ Nama Internal Kamu ]=>> " internal
 mv CoC+Inject+All+By+Mr+.+GxDDP.zip $internal
 echo -e $b 'Sudah Selesai, Tinggal Kamu Cek'
 sleep 1
-echo -e $d 'Kalau Gak Ada Berarti Kamu SalahMemasukkan Nama Internal Kamu'
+echo -e $d 'Kalau Gak Ada Berarti Kamu Salah Memasukkan Nama Internal Kamu'
 sleep 5
 clear
 clear
