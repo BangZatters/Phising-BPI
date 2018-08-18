@@ -7,3 +7,5 @@ Jadi Mohon Maaf Atas Kesalahan Saya ini
 Jangan Reupload Script ini
 Gua Janji Gak Bakal Reupload dan Reedit Tools ini
 Tepatin Janji Lu
+
+Tools Versi = 1.0
