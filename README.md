@@ -8,4 +8,5 @@ Jangan Reupload Script ini
 Gua Janji Gak Bakal Reupload dan Reedit Tools ini
 Tepatin Janji Lu
 
-Tools Versi = 1.0
+Tools Versi = 1.1
+Cuma Perbaikan Pemuasan Layanan
