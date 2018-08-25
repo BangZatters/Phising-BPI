@@ -136,12 +136,15 @@ fi
 if [ $bpi = 7 ] || [ $bpi = 07 ]
 then
 clear
-echo -e $a 'Link = http://bit.ly/SCPhisingCoCGxDDP'
+echo -e $b 'Masukkan Alamat Internal Kamu'
+echo -e $c 'Contoh: /sdcard'
+read -p "[BangZat]=>> " internal
+cd $internal
+git clone https://github.com/BangZatters/ScriptCOC
+echo -e $e 'Dah Selesai'
 sleep 1
-echo -e $c 'Dah Cuma Gitu Doank'
-sleep 10
-clear
-clear
+echo -e $a 'Coba Cek Internal Kamu'
+echo -e $d 'Nama Folder = ScriptCOC'
 exit
 fi
 
