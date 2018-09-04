@@ -55,8 +55,8 @@ if [ $bpi = 1 ] || [ $bpi = 01 ]
 then
 clear
 echo -e $a '<<=====[Install]=====>>'
-apt-get install python2
-apt-get install git
+apt-get install python2 -y
+apt-get install git -y
 cd $HOME
 git clone https://github.com/evait-security/weeman
 clear
@@ -70,7 +70,7 @@ then
 clear
 echo -e $b '<<=====[Install]=====>>'
 cd $HOME
-apt-get install git
+apt-get install git -y
 git clone https://github.com/thelinuxchoice/shellphish
 clear
 cd shellphish
@@ -81,7 +81,7 @@ if [ $bpi = 3 ] || [ $bpi = 03 ]
 then
 clear
 echo -e $c '<<=====[Install]=====>>'
-apt-get install git
+apt-get install git -y
 cd $HOME
 git clone https://github.com/thelinuxchoice/blackeye
 clear
@@ -93,7 +93,7 @@ if [ $bpi = 4 ] || [ $bpi = 04 ]
 then
 clear
 echo -e $d '<<=====[Install]=====>>'
-apt-get install python2 git php curl
+apt-get install python2 git php curl -y
 cd $HOME
 git clone https://github.com/UndeadSec/SocialFish
 cd socialfish
@@ -106,10 +106,10 @@ if [ $bpi = 5 ] || [ $bpi = 05 ]
 then
 clear
 echo -e $e '<<=====[Install]=====>>'
-apt-get install python2
-apt-get install apache2
-apt-get install php
-apt-get install git
+apt-get install python2 -y
+apt-get install apache2 -y
+apt-get install php -y
+apt-get install git -y
 cd $HOME
 git clone https://github.com/Senitopeng/PhisingGame.git
 clear
@@ -121,7 +121,7 @@ if [ $bpi = 6 ] || [ $bpi = 06 ]
 then
 clear
 echo -e $f '<<=====[Install]=====>>'
-apt-get install wget
+apt-get install wget -y
 mkdir ngrok
 cd ~/ngrok
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
@@ -153,7 +153,7 @@ then
 echo -e $a 'Yakin Ingin Keluar'
 echo -e $c ' Yaudah Silahkan Pilih'
 sleep 1
-echo -e $b '( Y ) Untuk Keluar dan ( N ) Untuk Netap'
+echo -e $b '( Y ) Untuk Keluar dan ( N ) Untuk Netap | Lalu Enter'
 read -p " [Y/N]=>> " out
 fi
 
