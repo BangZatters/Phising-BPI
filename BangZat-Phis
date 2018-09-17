@@ -31,14 +31,14 @@ echo -e $a '                 Autor:'
 echo -e $f '                Mr.GxDDP'
 echo -e $e '                Mr.LxTS'
 echo -e $b '              ZoRRoKiN 98'
-echo "   Join Grup: http://bit.ly/GrupBPITeam" | lolcat
-echo "             +6285701879860" | lolcat
+echo "   Join Grup: http://bit.ly/GrupBPITeam"
+echo "             +6285701879860"
 sleep 1
 echo -e $c '   Team: BangZat PhiSingeRs InDoNeSia'
 sleep 1
 echo -e $b '    <<=======>>[BPI-TEAM]<<=======>>'
 sleep 1
-echo '      Pilihlah Sesuai Keinginan Kamu' | lolcat
+echo '      Pilihlah Sesuai Keinginan Kamu'
 echo -e $f '<<====================================>>'
 echo -e $a ' [01] Install Weeman'
 echo -e $b ' [02] Install shellphish'
@@ -47,7 +47,7 @@ echo -e $d ' [04] Install SocialFish'
 echo -e $e ' [05] Install PhisingGame'
 echo -e $f ' [06] Install Ngrok'
 echo -e $g ' [07] Download SC Phising coc By GxDDP'
-echo '  [00] Keluar' | lolcat
+echo '  [00] Keluar'
 echo -e $f "<<====================================>>"
 read -p " [BPI-Team]==>> " bpi;
 
