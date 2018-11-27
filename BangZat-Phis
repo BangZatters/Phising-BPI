@@ -27,7 +27,7 @@ echo -e $g '#######/_/##\___/\__,_/_/#/_/#/_/#######'
 echo -e $g '########################################'
 echo -e $b '    <<=======>>[BPI-Team]<<=======>>'
 sleep 1
-echo -e $a '                 Autor:'
+echo -e $a '                 Author:'
 echo -e $f '                Mr.GxDDP'
 echo -e $e '                Mr.LxTS'
 echo -e $b '              ZoRRoKiN 98'
